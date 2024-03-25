@@ -1,0 +1,82 @@
+(tempo! 67)
+one = [o4 <e8> g8 {d g}4 <c8 d16 e16> {d g}4]
+two = [o4 <g8 d8> {d g}4 <g8> d8 <g8> d8 <<f+8>> d8]
+three = [o4 {r d}4 {d g} g4 {a b}4] #05 51 1 23
+four = [o4 {r d}4 {d g} {g {a b}8}4 b16 a16 <d8>]
+five = [o4 <f+16> g8 <g16> {g g g g}4]
+midi-electric-guitar-clean:
+    one|
+    two|
+    three|
+    o4 <g8 d8> {d g}4 <g8> d8 <g8> d8 <<f+16>> g16 d8|
+    four
+    three
+    r8 a256 b4 {a~b}8 {c b a c}8 b16 a16 g8|
+    <d8> g8 {g b}4 {c b} a8 g16 a16|
+    {b b}4 {b b} a16 b16 a8 g4|
+    <d8> g8 a8 b8 b256 c8 b8 a8 g16 a16|
+    a256 b8 b8 a256 b8 b8 a16 b16 a8 g8. <f+16>
+    {g g g g}4 five * 3 d16 d8 d16|
+    {r d d d}16 d16 d8 d16~d16 d16 d16 d16 d16 c16 b16 a256 b16|
+    b2 r4 {g g g g}16|
+    <e8 f+8> {g d}4 {c b} g8 g8~g4 r4 {g g g g}16 a256 b8 g8|
+    <e8 f+8> {g d}4 {c b} {c b} g8 g256 a8|
+    a2 r4 r4|
+    a256 b8 a8 b256 c8 b4 g8 b256 d8 f+8|
+    >g8< f+ d256 g8 g4 g8 d256 e8 e8 |
+    r8 e8 d8 d4 d8 {c b}4 |
+    {a b}4 c8 a256 b8~b2 |
+    b8 c++8 d++8 b4 c8 {d f+}|
+    >a8< f+8 >g8 g4.< r8 >g8< |
+    >g8< d8 d8 e8 d16~c16 c8 {a b}4|
+    {c d}4 {e g}4 e8. f+16 f+4|
+    a256 b8 a8 b256c8 b4 g8 b256 d8 f+8 |
+    >g8< f+8 d256g8 g4 g8 d256e8 e8 |
+    r8 e8 d8 d4 d8 c8 b8 |
+    {a b}4 c8 a256b8~b2 |
+    b8 c++8 d++8 b4 c8 d8 f+8|
+    >g< f+8 >g8< >g4.< {r >g<}4|
+    >g8< d8 {d e}4 {d c}4 <e f+> |
+    g8 a8 b8 a4. a256b8 g8~g2 r r |
+    r r r r |
+    r r r r |
+    r r r #todo
+
+
+midi-bright-acoustic-piano:
+    one|
+    two|
+    three|
+    o4 <g8 d8> {d g}4 <g8> d8 <g8> d8 <<f+16>> g16 d8|
+    four
+    three
+    r8 a256 b4 {a~b}8 {c b a c}8 b16 a16 g8|
+    <d8> g8 {g b}4 {c b} a8 g16 a16|
+    {b b}4 {b b} a16 b16 a8 g4|
+    <d8> g8 a8 b8 b256 c8 b8 a8 g16 a16|
+    a256 b8 b8 a256 b8 b8 a16 b16 a8 g8. <f+16>
+    {g g g g}4 five * 3 d16 d8 d16|
+    {r d d d}16 d16 d8 d16~d16 d16 d16 d16 d16 c16 b16 a256 b16|
+    b2 r4 {g g g g}16|
+    <e8 f+8> {g d}4 {c b} g8 g8~g4 r4 {g g g g}16 a256 b8 g8|
+    <e8 f+8> {g d}4 {c b} {c b} g8 g256 a8|
+    a2 r4 r4|
+    a256 b8 a8 b256 c8 b4 g8 b256 d8 f+8|
+    >g8< f+ d256 g8 g4 g8 d256 e8 e8 |
+    r8 e8 d8 d4 d8 {c b}4 |
+    {a b}4 c8 a256 b8~b2 |
+    b8 c++8 d++8 b4 c8 {d f+}|
+    >a8< f+8 >g8 g4.< r8 >g8< |
+    >g8< d8 d8 e8 d16~c16 c8 {a b}4|
+    {c d}4 {e g}4 e8. f+16 f+4|
+    a256 b8 a8 b256c8 b4 g8 b256 d8 f+8 |
+    >g8< f+8 d256g8 g4 g8 d256e8 e8 |
+    r8 e8 d8 d4 d8 c8 b8 |
+    {a b}4 c8 a256b8~b2 |
+    b8 c++8 d++8 b4 c8 d8 f+8|
+    >g< f+8 >g8< >g4.< {r >g<}4|
+    >g8< d8 {d e}4 {d c}4 <e f+> |
+    g8 a8 b8 a4. a256b8 g8~g2 r r |
+    r r r r |
+    r r r r |
+    r r r
